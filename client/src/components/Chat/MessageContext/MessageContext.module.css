@@ -1,0 +1,39 @@
+.messageContext {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border-radius: 10px;
+  border: 1px solid #33333333;
+  width: 100%;
+}
+
+.messageContext_input {
+  flex: 1;
+  border: none;
+  padding: 10px 12px;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.messageContext_input::placeholder {
+  color: #33333333;
+}
+
+.messageContext_input:focus {
+  outline: none;
+}
+
+.messageContext_submit {
+  display: flex;
+  align-items: center;
+  border: none;
+  background-color: inherit;
+  cursor: pointer;
+  margin-bottom: 70px;
+}
+
+.messageContext_submit img {
+  height: 24px;
+}

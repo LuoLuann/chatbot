@@ -1,0 +1,35 @@
+.messageContainer {
+  float: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-right: 15px;
+  max-width: 60%;
+}
+
+.messageUser {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-right: 15px;
+  max-width: 60%;
+}
+
+.name {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.messageUser_text {
+  word-wrap: break-word;
+  background-color: #333;
+  color: white;
+  padding: 10px 32px;
+  border-radius: 3px;
+  font-size: 17px;
+  font-weight: 500;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  margin-top: 4px; /* Espaço entre a label "Você" e a mensagem */
+}

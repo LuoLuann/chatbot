@@ -1,0 +1,7 @@
+.dataMensage{
+    display: flex;
+    justify-content: center;
+    color: #838EAB;
+
+    opacity: 0.4;
+}
